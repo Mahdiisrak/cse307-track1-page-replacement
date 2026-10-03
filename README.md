@@ -12,6 +12,7 @@ This project implements **FIFO**, **LRU**, and **Optimal (Belady's)** page repla
 - `results/hit_ratio_by_phase.png` — hit-ratio chart.
 - `results/faults_by_phase.png` — page-fault chart.
 - `report/term_paper_report.pdf` — 2–3 page written report.
+- `report/term_paper_report.tex` — editable LaTeX source for the written report.
 - `DEMO_GUIDE.md` — 3–5 minute walkthrough script.
 
 ## Setup
@@ -31,6 +32,13 @@ python track1_page_replacement.py
 ```
 
 The command regenerates the CSV files and charts in `results/`. The random generator uses a fixed seed (`307`) so the results are reproducible.
+
+The LaTeX report can be compiled from the `report` folder with:
+
+```powershell
+cd report
+pdflatex term_paper_report.tex
+```
 
 ## Experiment summary
 
