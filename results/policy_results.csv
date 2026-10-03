@@ -1,0 +1,9 @@
+policy,phase,references,hits,faults,hit_ratio
+FIFO,locality,400,319,81,0.7975
+FIFO,random_bursty,400,212,188,0.53
+LRU,locality,400,336,64,0.84
+LRU,random_bursty,400,215,185,0.5375
+Optimal,locality,400,360,40,0.9
+Optimal,random_bursty,400,281,119,0.7025
+Learned,locality,400,346,54,0.865
+Learned,random_bursty,400,177,223,0.4425
