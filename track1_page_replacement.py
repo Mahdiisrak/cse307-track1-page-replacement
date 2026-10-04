@@ -9,7 +9,7 @@ from __future__ import annotations
 from collections import Counter, deque
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Callable, Iterable
+from typing import Callable
 
 import matplotlib.pyplot as plt
 import numpy as np
