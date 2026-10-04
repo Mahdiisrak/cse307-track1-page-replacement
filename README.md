@@ -48,6 +48,10 @@ The first 400 references use locality-heavy and partly sequential access. The ne
 
 An AI coding assistant was used to help structure the implementation, explain standard library APIs, and draft documentation. The workload design, experiment execution, generated measurements, and interpretation should be reviewed and edited by the student before submission.
 
-## Student details to edit
+## Student details
 
-Before submitting, replace the student-name placeholder in the PDF report and README metadata if your instructor requires it. Also create the GitHub repository and push this folder.
+- **Name:** Md. Mahdi Israk Mahir
+- **Student ID:** 202414016
+- **Track:** 1 — Learned Page Replacement
+
+Create the GitHub repository and push this folder before submission.

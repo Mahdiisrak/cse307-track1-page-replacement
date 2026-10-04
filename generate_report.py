@@ -31,7 +31,7 @@ def build_report() -> None:
 
     story.append(Paragraph("CSE-307 Operating Systems", styles["TitleCenter"]))
     story.append(Paragraph("Learning-Augmented Page Replacement: Classical Algorithms Meet Adaptive Prediction", styles["Heading2"]))
-    story.append(Paragraph("Student: [Your Name] &nbsp;&nbsp; Student ID: [Your ID] &nbsp;&nbsp; Track 1", styles["Small"]))
+    story.append(Paragraph("Student: Md. Mahdi Israk Mahir &nbsp;&nbsp; Student ID: 202414016 &nbsp;&nbsp; Track 1", styles["Small"]))
     story.append(Spacer(1, 8))
 
     story.append(Paragraph("1. Problem framing", styles["Heading2"]))
